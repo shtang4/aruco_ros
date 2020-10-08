@@ -32,7 +32,7 @@
 #include "aruco_export.h"
 #include "marker.h"
 
-#include <opencv2/core.hpp>
+#include <opencv2/core/core.hpp>
 
 #include <string>
 #include <vector>

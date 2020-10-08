@@ -33,7 +33,7 @@
 #include <stdexcept>
 #include <vector>
 #include <bitset>
-#include <opencv2/imgproc.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 #include "markermap.h"
 #include <set>
 #include <stdexcept>

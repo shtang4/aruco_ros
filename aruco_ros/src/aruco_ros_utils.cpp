@@ -3,7 +3,7 @@
 #include <ros/assert.h>
 #include <iostream>
 #include <tf/transform_datatypes.h>
-#include <opencv2/calib3d.hpp>
+#include <opencv2/calib3d/calib3d.hpp>
 #include <cv_bridge/cv_bridge.h>
 
 aruco::CameraParameters aruco_ros::rosCameraInfo2ArucoCamParams(const sensor_msgs::CameraInfo& cam_info,

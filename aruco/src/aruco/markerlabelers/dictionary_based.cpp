@@ -32,7 +32,7 @@
 
 #include <bitset>
 #include <cmath>
-#include <opencv2/highgui.hpp>//TOREMOVE
+#include <opencv2/highgui/highgui.hpp>//TOREMOVE
 
 namespace aruco
 {

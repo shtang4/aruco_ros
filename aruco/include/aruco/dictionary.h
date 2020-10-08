@@ -31,7 +31,7 @@
 
 #include "aruco_export.h"
 
-#include <opencv2/core.hpp>
+#include <opencv2/core/core.hpp>
 
 #include <iostream>
 #include <map>

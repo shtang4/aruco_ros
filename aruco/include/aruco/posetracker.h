@@ -35,7 +35,7 @@
 #include "markermap.h"
 
 #include <map>
-#include <opencv2/core.hpp>
+#include <opencv2/core/core.hpp>
 
 namespace aruco
 {

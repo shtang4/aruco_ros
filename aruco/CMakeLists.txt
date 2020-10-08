@@ -3,7 +3,10 @@ project(aruco)
 
 find_package(catkin)
 find_package(Eigen3 REQUIRED)
-find_package(OpenCV 3 REQUIRED)
+find_package(OpenCV REQUIRED)
+
+add_compile_options(-std=c++11)
+
 set(CMAKE_CXX_STANDARD 11) # C++11...
 set(CMAKE_CXX_STANDARD_REQUIRED ON) #...is required...
 set(CMAKE_CXX_EXTENSIONS ON) #...with compiler extensions like gnu++11

@@ -30,7 +30,7 @@
 #include "ippe.h"
 #include <set>
 #include "levmarq.h"
-#include <opencv2/calib3d.hpp>
+#include <opencv2/calib3d/calib3d.hpp>
 
 namespace aruco
 {

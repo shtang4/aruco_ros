@@ -43,7 +43,7 @@
 #ifndef _IPPE_H_
 #define _IPPE_H_
 
-#include <opencv2/core.hpp>
+#include <opencv2/core/core.hpp>
 #include "aruco_export.h"
 
 namespace aruco

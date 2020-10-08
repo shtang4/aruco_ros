@@ -29,8 +29,8 @@
 #ifndef ARUCO_MM__LevMarq_H
 #define ARUCO_MM__LevMarq_H
 
-#include <Eigen/Core>
-#include <Eigen/Cholesky>
+#include <eigen3/Eigen/Core>
+#include <eigen3/Eigen/Cholesky>
 #include <functional>
 #include <iostream>
 #include <cmath>

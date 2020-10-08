@@ -31,8 +31,8 @@
 /// \todo set this definition in the cmake code
 #define _USE_MATH_DEFINES
 
-#include <opencv2/calib3d.hpp>
-#include <opencv2/imgproc.hpp>
+#include <opencv2/calib3d/calib3d.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 
 #include <cstdio>
 #include <math.h>
@@ -341,9 +341,11 @@ void Marker::calculateExtrinsics(float markerSizeMeters, cv::Mat camMatrix, cv::
   cv::Mat raux, taux;
   if (correctFisheye)
   {
+    /*
     std::vector<cv::Point2f> undistorted;
     cv::fisheye::undistortPoints(*this, undistorted, camMatrix, distCoeff);
     cv::solvePnP(objpoints, undistorted, cv::Mat::eye(camMatrix.size(), camMatrix.type()), cv::Mat::zeros(distCoeff.size(), distCoeff.type()), raux, taux);
+    */
   }
   else
   {
